@@ -3,6 +3,7 @@ library(dplyr)
 library(ggplot2)
 
 # Read the dataset
+# Change the C:/Users/Espaw/OneDrive/Documents/UNI/CII2201/project/WHO-COVID-19-global-data.csv part to reflect where you save the csv file on your system
 covid <- read.csv("C:/Users/Espaw/OneDrive/Documents/UNI/CII2201/project/WHO-COVID-19-global-data.csv")
 
 # Filter the dataset for country_code "GB" and drop the specified columns
